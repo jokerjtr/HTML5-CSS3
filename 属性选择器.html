@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+          /* [属性]{}
+           [属性=] :属性=时的样式
+           [属性*=] 属性含有的*的样式
+           [属性^=] 属性以什么开头的样式
+           [属性$=] 属性以什么结尾的样式
+        
+           */
+           /* p[title=abc]{ */
+            /* p[title^=abc]{ */
+               p[title*=abc]{
+               color:burlywood;
+           } 
+      </style>  
+  
+    </head>
+    <body>
+       <p title="abc">金庸武侠剧</p>
+       <p title="abcef">古龙武侠剧</p>
+       <p title="hello">温瑞安武侠剧</p>
+       <p>烽火戏诸侯</p>
+       <p>天蚕土豆</p>
+    </body>
+</html>

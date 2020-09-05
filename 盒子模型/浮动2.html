@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <style>
+          .box1{
+              background-color: greenyellow;
+              float: left;
+              /* 浮动后就 大小就是内容的大小 */
+          }
+          .box2{
+              background-color: red;
+              float: left;
+          }
+          span{
+              background-color: rosybrown;
+              /* 行内元素是不能设置宽度和高度的，但是浮动后行内元素就变成行内块元素，可以设置大小 */
+              height: 101px;
+              float: left;
+          }
+        </style>
+    </head>
+    <body>
+          <div class="box1">hello</div>
+          <div class="box2">hello</div>
+          <span>函内</span>
+    </body>
+</htm>

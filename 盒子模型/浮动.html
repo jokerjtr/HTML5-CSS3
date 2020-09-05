@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <style>
+            .inn{
+                /* 内容的大小，盒子模型=内容+padding+border */
+                width: 200px;
+                height: 200px;
+                background-color: aquamarine;
+                /* 浮动可以使一个元素在父元素和子元素中移动  float
+                    float:none 默认不移动
+                          left 
+                          right
+                   设置浮动后:水平方向的布局不遵守
+                */
+                  float: left; 
+            }
+            .box2{
+                /* 内容的大小，盒子模型=内容+padding+border */
+                width: 300px;
+                height: 200px;
+                background-color: orange;
+                /* 浮动可以使一个元素在父元素和子元素中移动  float
+                    float:none 默认不移动
+                          left 
+                          right
+                   设置浮动后:水平方向的布局不遵守
+                   浮动后，元素会从文档流中移除，就不会占据文档流的位置
+                   所以后面元素中在文档流中会占据之前的位置
+                */
+                float: left;
+                  
+            }
+            .box3{
+                /* 内容的大小，盒子模型=内容+padding+border */
+                width: 300px;
+                height: 200px;
+                background-color: greenyellow;
+                /* 浮动可以使一个元素在父元素和子元素中移动  float
+                    float:none 默认不移动
+                          left 
+                          right
+                   设置浮动后:水平方向的布局不遵守
+                   浮动后，元素会从文档流中移除，就不会占据文档流的位置
+                   所以后面元素中在文档流中会占据之前的位置
+                */
+                float: right;
+                  
+            }
+        </style>
+    </head>
+    <body>
+        <div class="inn"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </body>
+</htm>

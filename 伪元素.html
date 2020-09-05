@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+       /* 伪元素：表示页面一下特殊的不真实存在的位置 
+        ::first-letter ：表示第一个字母
+        ::first-line 表示第一行
+        ::selection 表示被选中的元素
+        ::before  元素开始的位置
+        ::after   元素结束的位置
+          --这两个不能直接使用，要和content联和使用
+       */
+    p::first-letter {
+        font-size: 20px;
+    }
+    p::first-line{
+        background-color: burlywood;
+    }
+    P::selection{
+        background-color: chartreuse;
+    }
+    div::before{
+        content: 'before';
+        color: coral;
+    }
+    div::after{
+        content: '';
+    }
+      </style>  
+    </head>
+    <body>
+        <div>this is my world,welcome!</div>
+       <p>Lorem ipsum color sit met conscteur adipsticing edit ,A veit modi very hello,world</p>
+    </body>
+</html>

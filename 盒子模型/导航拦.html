@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .nav{
+              width:1210px;
+              height: 48px;
+              background-color: #E8E7E3;
+              /* auto 表示居中对齐 */
+              margin: 100px auto;
+              padding-left: 0px;
+            
+           }
+           .nav li{
+               float: left;
+               list-style: none;
+               
+               /* 让文字在父元素中居中 */
+               line-height: 48px;
+           }
+           .nav a{
+               font-size: 18px;
+               color: #777777;
+               /* 去掉下换线 */
+               text-decoration: none;
+               padding:0px 39px;
+               /* 将A设置为块元素，可以设置A的高度 */
+               display: block;
+            
+           }
+           .nav a:hover{
+               background-color: #3f3f3f;
+           }
+           .nav li:last-child a{
+               font-size:  19px;
+           }
+        </style>
+      
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a href="#">HTML/CSS</a></li>
+            <li><a href="#">Browser Side</a></li>
+            <li><a href="#">Server Side</a></li>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">XML</a></li>
+            <li><a href="#">WEB Building</a></li>
+            <li><a href="#">Reference</a></li>
+        </ul>
+    </body>
+</html>

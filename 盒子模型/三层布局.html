@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>三层布局</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            header,main,footer{
+                width: 1000px;
+                margin:0px auto;
+            }
+            header{
+                height: 100px;
+                background-color: #686767;
+            }
+            main{
+                height: 400px;
+                background-color: #cfda34;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            main nav,article,aside{
+                height: 400px;
+                float: left;
+            }
+            main nav{
+                width: 190px;
+                background-color: aqua;
+                
+            }
+            main article{
+                width: 600px;
+                background-color: rgb(196, 55, 36);
+                margin: 0px 10px;
+            }
+            main aside{
+                width: 190px;
+                background-color: chocolate;
+            }
+            footer{
+                height: 100px;
+                background-color: green;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <!-- 导航 -->
+            <nav></nav>
+            <!-- 内容 -->
+            <article></article>
+            <!--  -->
+            <aside></aside>
+        </main>
+        <footer></footer>
+    </body>
+</html>
